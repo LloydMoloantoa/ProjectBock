@@ -1,0 +1,22 @@
+ Deploying 'Crowdfunding'
+   ------------------------
+   > transaction hash:    0xcb73663d2820212b2bc8e7d9df73545298734eeb45f07e35cb4441047a987663
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xd54FDfC1D8dFD15e0bc2Ce315B5c7aCC5b4a2771
+   > block number:        5
+   > block timestamp:     1680267699
+   > account:             0x568E70c4BdDB2a6FFFF828f4e1Ed33eD80d0677c
+   > balance:             99.994413237123679945
+   > gas used:            1313382 (0x140a66)
+   > gas price:           3.023707323 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003971282771296386 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003971282771296386 ETH
+
+   truffle deploy --network ganache
+
+   npm install @openzeppelin/contracts
