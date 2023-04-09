@@ -8,6 +8,8 @@ import Post from './posts/Post';
 import Add from './posts/Add';
 import Edit from './posts/Edit';
 import NotFound from './components/NotFound'
+import Blockview from './block/Blockview';
+import AddBlockchain from './block/AddBlockchain';
 
 
 import {
@@ -27,6 +29,10 @@ function App() {
           name='view post'
           onClick={() => navigate('/post')}
         />
+         <Menu.Item
+          name='BlockChain Data'
+          onClick={() => navigate('/blockview')}
+        />
       </Menu>
       
       <Routes>
@@ -35,6 +41,8 @@ function App() {
         <Route path='/create' element= {<Add />} />
         <Route path='/edit' element= {<Edit />} />
         <Route path='/campaigns/:address' element={<CampaignPage />} />
+        <Route path='/blockview' element= {<Blockview />} />
+        <Route path='/addBlockchain' element= {<AddBlockchain />} />
         <Route
           path='*'
           element={<NotFound />}
