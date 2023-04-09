@@ -18,12 +18,15 @@ function Blockview() {
         })
     }
 
-    //blockchain.addBlock(new Block(37cfe7f7, "12/07/2017", { data: 10 }));
+    //blockchain.addBlock(new Block("37cfe7f7", "12/07/2017", { data: 10 }));
     //blockchain = JSON.stringify(blockchain, null, 4);
     //console.log('is blockchain valid? ' + blockchain.isChainValid());
+
     //blockchain.chain[1].data = { data: 56 };
     //blockchain.chain[1].hash = blockchain.chain[1].calculateHash();
     //console.log('is blockchain valid? ' + blockchain.isChainValid().toString());
+    //console.log('is blockchain valid? ' + blockchain.isChainValid());
+    //console.log(JSON.stringify(blockchain, null, 4))
 
     return (
         <div>
